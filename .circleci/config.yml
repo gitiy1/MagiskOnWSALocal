@@ -1,0 +1,7 @@
+version: 2.1
+jobs:
+  whats-installed:
+    machine: # executor type
+      image: ubuntu-2004:2022.07.1
+    steps:
+      - run: apt list --installed
